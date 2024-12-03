@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <header>
         <div className="container header__container">
-          <h5>Hello I'm</h5>
+          <h5>Hello I'm </h5>
           <h1>Skander Mahfoudh</h1>
           <div className="text-light">Fullstack Developer</div>
           <CTA />
