@@ -11,7 +11,7 @@ class Header extends Component {
         <div className="container header__container">
           <h5>Hello I'm</h5>
           <h1>Skander Mahfoudh</h1>
-          <div className="text-light">Fullstack Developer</div>
+          <div  className="text-light">Fullstack Developer</div>
           <CTA />
          
           <a href="#contact" className="scroll__down">
