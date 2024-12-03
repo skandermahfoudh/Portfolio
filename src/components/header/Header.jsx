@@ -3,6 +3,7 @@ import CTA from "./CTA";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 import "./header.css";
+import moe from "../../assets/téléchargé.jpeg"
 class Header extends Component {
   render() {
     return (
@@ -16,6 +17,7 @@ class Header extends Component {
           <a href="#contact" className="scroll__down">
             Scroll Down
           </a>
+          <img src={moe} alt="moe" />
           <HeaderSocials />
         </div>
       </header>
