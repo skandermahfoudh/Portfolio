@@ -17,7 +17,7 @@ class Header extends Component {
           <a href="#contact" className="scroll__down">
             Scroll Down
           </a>
-          <img src={moe} alt="moe" />
+         
           <HeaderSocials />
         </div>
       </header>
