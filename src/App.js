@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Experience from "./components/experience/Experience.jsx";
 import About from "./components/about/About.jsx";
+import Portfolio from "./components/portfolio/portfolio.jsx";
 
 class App extends Component {
   render() {

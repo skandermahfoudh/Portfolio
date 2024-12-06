@@ -11,45 +11,42 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/inextdeve",
-    demo: "https://inext.dev"
+    title: "Student Managment Project",
+    github: "https://github.com/skandermahfoudh/Academa",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/inextdeve",
-    demo: "https://inext.dev"
+    title: "Blog Application Project",
+    github: "https://github.com/skandermahfoudh/BlogProjectWeb",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/inextdeve",
-    demo: "https://inext.dev"
+    title: "Exam Portal Android Application",
+    github: "https://github.com/skandermahfoudh/ExamPortal",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com/inextdeve",
-    demo: "https://inext.dev"
+    title: "Events Web Site",
+    github: "https://github.com/skandermahfoudh/eventi",
+   
   },
   {
     id: 5,
     image: IMG5,
     title: "Crypto Currency Dashboard & Financial Visualization",
     github: "https://github.com/inextdeve",
-    demo: "https://inext.dev"
+   
   },
   {
     id: 6,
     image: IMG6,
     title: "CryptCurrency Dashboard & Financial Visualization",
     github: "https://github.com/inextdeve",
-    demo: "https://inext.dev"
-  }
+ 
+  },
 ];
 
 class Portfolio extends Component {
@@ -59,7 +56,7 @@ class Portfolio extends Component {
         <h5>My Recent Work</h5>
         <h2>Portfolio</h2>
         <div className="container portfolio__container">
-          {data.map(({ id, image, title, github, demo }) => {
+          {data.map(({ id, image, title, github }) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -69,9 +66,6 @@ class Portfolio extends Component {
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn" target="_blank">
                     Github
-                  </a>
-                  <a href={demo} className="btn btn-primary" target="_blank">
-                    Live Demo
                   </a>
                 </div>
               </article>

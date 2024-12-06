@@ -38,13 +38,6 @@ class Nav extends Component {
           <BiBook />
         </a>
         <a
-          onClick={() => this.setState({ active: "#services" })}
-          className={this.state.active == "#services" ? "active" : ""}
-          href="#services"
-        >
-          <RiServiceLine />
-        </a>
-        <a
           onClick={() => this.setState({ active: "#contact" })}
           className={this.state.active == "#contact" ? "active" : ""}
           href="#contact"

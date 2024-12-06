@@ -35,7 +35,7 @@ class Experience extends Component {
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
-                  <h4>Tailwind</h4>
+                  <h4>Angular</h4>
                   <small className="text-light">Intermediate</small>
                 </div>
               </article>
@@ -102,6 +102,41 @@ class Experience extends Component {
               </article>
             </div>
           </div>
+
+          <div className="experience__3d">
+            <h3>3D Development</h3>
+            <div className="experience__content">
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" />
+                <div>
+                  <h4>Unity</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" />
+                <div>
+                  <h4>Unreal Engine</h4>
+                  <small className="text-light">Advandced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" />
+                <div>
+                  <h4>AR</h4>
+                  <small className="text-light">LoveIt</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" />
+                <div>
+                  <h4>VR</h4>
+                  <small className="text-light">Intermediate</small>
+                </div>
+              </article>
+            </div>
+          </div>
+
         </div>
       </section>
     );
